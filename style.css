@@ -247,8 +247,9 @@ header h1{
 
                 /* Holidays sale */
 
-.holiday-sale-content{
+.holiday-sale-content, .holiday-sale-img-container{
     margin: 50px auto;
+    width: 1100px;
     text-align: center;
 }
 .holiday-sale-content h3{
@@ -269,6 +270,31 @@ header h1{
     font-size: 20px;
     font-weight: 500;
 }
+/* images */
+#pseudo1{
+    height: 470px;
+    width: 570px;
+    position: absolute;
+    left: 100px;
+    top: 3700px;
+}
+#pseudo2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 700px;
+    top: 3800px;
+}
+#girl{
+    width: 430px;
+    height: 430px;
+    margin-left: 670px;
+}
+#red-line{
+    width: 1100px;
+}
+
+
 
 
 
