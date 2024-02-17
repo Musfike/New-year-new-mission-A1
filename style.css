@@ -182,13 +182,176 @@ header h1{
 
                 /* Info Section  End*/
 
-                /*  */
+                /* Coming Soon */
+
+.coming-soon{
+    display: flex;
+    width: 1100px;
+    height: 450px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 125px;
+}
+
+.cs-left{
+    width: 350px;
+    height: 250px;
+    margin-top: 100px;
+    margin-left: 5px;
+}
+.cs-left h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.cs-left h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 16px;
+    margin-bottom: 22px;
+    color: rgb(7, 2, 17);
+}
+.cs-left p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+}
+.cs-img{
+    height: 360px;
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 10px solid rgb(255, 0, 0);
+    border-radius: 210px;
+}
+.cs-right{
+    width: 270px;
+    height: 300px;
+    margin-top: 100px;
+}
+.cs-right h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.cs-right p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+
+                /* Coming Soon End*/
+
+
+                /* Holidays sale */
+
+.holiday-sale-content{
+    color: rgb(7, 2, 17);
+    
+}
 
 
 
 
 
-            /* Footer start */
+
+
+                /* Portfolio start */
+
+.portfolio{
+    height: 950px;
+    width: 1010px;
+    margin-left: 175px;
+}
+.portfolio h3{
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.portfolio p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 40px;
+}
+.portfolio-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.portfolio-img-container img{
+    height: 350px;
+    width: 320px;
+}
+.portfolio-img-container img:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+                /* Portfolio End */
+
+                /* Subscribe Start */
+
+.subscribe{
+    height: 500px;
+    width: 1010px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding: 50px;
+}
+.subscribe img{
+    height: 150px;
+    width: 150px;
+}
+.subscribe h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(7, 2, 17);
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.subscribe p{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+.subscribe form{
+    margin: 40px auto;
+    max-width: 500px;
+    height: 50px;
+    display: flex;
+}
+.subscribe form input{
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 30px 0px 0px 30px;
+    border: none;
+}
+.subscribe form button{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 0px 30px 30px 0px;
+    border: none;
+}
+
+                /* Subscribe End */
+
+
+                /* Footer start */
 
 footer{
     height: 450px;
@@ -217,7 +380,7 @@ footer{
     margin-left: 10px;
 }
 .footer-icon{
-    margin-left: 600px;
+    margin-left: 550px;
     margin-top: 22px;    
 }
 
