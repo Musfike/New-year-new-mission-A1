@@ -248,8 +248,26 @@ header h1{
                 /* Holidays sale */
 
 .holiday-sale-content{
+    margin: 50px auto;
+    text-align: center;
+}
+.holiday-sale-content h3{
     color: rgb(7, 2, 17);
-    
+    font-size: 24px;
+    font-weight: 500;
+}
+.holiday-sale-content h1{
+    color: rgb(7, 2, 17);
+    font-size: 72px;
+    font-weight: 900;
+}
+.holiday-sale-content h1 span{
+    color: rgb(255, 0, 0);
+}
+.holiday-sale-content p{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
 }
 
 
